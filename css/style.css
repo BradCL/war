@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+.hidden{
+  display: none;
+}
+img{
+  display: inline;
+}
+body {
+  width: 100%;
+  text-align: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#P1FaceUpCard, #P2FaceUpCard {
+  max-height: 314px;
+}
+h2 {
+  font-size: 2rem;
+}
+.player1 {
+  color: green;
+}
+.player2{
+  color: red;
+}
+h3 {
+  font-size: 2.25rem;
+}
